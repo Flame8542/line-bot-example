@@ -5,7 +5,7 @@ from line_bot.exceptions import InvalidSignatureError
 from line_bot.models import MessageEvent, TextMessage, TextSendMessage
 
 # 載入環境變數
-LINE_CHANNEL_ACCESS_TOKEN = os.getenv('LINE_CHANNEL_ACCESS_TOKEN')
+LINE_CHANNEL_ACCESS_TOKEN = os.getenv('0wBpNe5fOX0TeeZGkSCL5CH6bJDry1O9lQzNxj3AKBHAm6dRTwGqkJ0ft7eAz7cYDfxgNs8vunZwSx5Jz73NzWCXL4Vq42JdqvhyBP5Cvy+IcwlGQT+6KEjSSfQKr6P7AmBU/aQyh2AWrCaKb1HMeAdB04t89/1O/w1cDnyilFU=')
 LINE_CHANNEL_SECRET = os.getenv('LINE_CHANNEL_SECRET')
 
 # 初始化 Line Bot API 與 Webhook Handler
